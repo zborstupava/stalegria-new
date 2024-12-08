@@ -1,0 +1,62 @@
+.mp3-player {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 30vw; /* Wider than higher */
+    height: auto; /* Adjust height */
+    padding: 1vw;
+    border: 1px solid #189ab4;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    margin: 1vw;
+}
+
+.mp3-image {
+    width: 5vw; /* Smaller image */
+    height: 5vw; /* Maintain aspect ratio */
+    border-radius: 10px;
+    margin-right: 1vw;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.recording-name {
+    font-size: 1.2vw;
+    font-weight: bold;
+    margin-bottom: 0.5vw;
+}
+
+.control-buttons {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.play-pause {
+    margin: 0 1vw 0 0;
+    padding: 0.5vw 1vw;
+    border: none;
+    border-radius: 5px;
+    background-color: #189ab4;
+    color: white;
+    cursor: pointer;
+}
+
+.progress-bar {
+    flex-grow: 1;
+    margin: 0 1vw;
+}
+
+.download-button {
+    padding: 0.5vw;
+    border: none;
+    border-radius: 5px;
+    background-color: #189ab4;
+    color: white;
+    cursor: pointer;
+}

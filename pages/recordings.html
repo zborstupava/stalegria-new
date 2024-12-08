@@ -5,6 +5,8 @@
     <title>Recordings</title>
     <link href="../media/IMGs/logo/titleLogo.png" rel="icon" type="images/x-icon"/>
     <link href="../myStyles/css/main.css" rel="stylesheet">
+    <link href="../myStyles/css/recordings_style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
 <header class="header">
@@ -28,14 +30,54 @@
         <img alt="Recordings" src="../media/IMGs/pageImgs/recordings.png">
     </div>
     <div class="page-content">
-        <p class="page-text">Vestibulum donec imperdiet, mollis sodales, euismod arcu placerat quam netus ut. Odio risus
-            morbi, tellus porttitor sollicitudin sit scelerisque. Augue lacus eu convallis, ut laoreet justo, vulputate
-            interdum lobortis est mi iaculis magna cubilia. Nullam facilisis posuere, a maecenas justo aliquet. Tempor
-            hac, cubilia himenaeos cras phasellus. Vestibulum suspendisse duis elit, eros faucibus porta, netus ad
-            commodo nostra imperdiet id odio. Cursus curae, porta elit pulvinar aptent. Dapibus diam eget, sollicitudin
-            quis, ornare metus pretium quam feugiat ipsum senectus. Conubia nunc habitant, pharetra sem, porttitor quam
-            pulvinar ut primis.</p>
+        <div id="mp3-players-container">
+            <div class="mp3-player">
+                <img src="../media/IMGs/illustrativeImages/svieckyThumb.jpg" alt="Illustrative Image 1" class="mp3-image">
+                <div class="controls">
+                    <div class="recording-name">Blahoslaveni</div>
+                    <div class="control-buttons">
+                        <button class="play-pause"><i class="fas fa-play"></i></button>
+                        <input type="range" class="progress-bar" value="0">
+                        <a href="../media/recordings/blahoslaveni.mp3" download class="download-button"><i class="fas fa-download"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="mp3-player">
+                <img src="../media/IMGs/illustrativeImages/svieckyThumb.jpg" alt="Illustrative Image 2" class="mp3-image">
+                <div class="controls">
+                    <div class="recording-name">Salve Regina</div>
+                    <div class="control-buttons">
+                        <button class="play-pause"><i class="fas fa-play"></i></button>
+                        <input type="range" class="progress-bar" value="0">
+                        <a href="../media/recordings/salveRegina.mp3" download class="download-button"><i class="fas fa-download"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="mp3-player">
+                <img src="../media/IMGs/illustrativeImages/svieckyThumb.jpg" alt="Illustrative Image 3" class="mp3-image">
+                <div class="controls">
+                    <div class="recording-name">Sanctus</div>
+                    <div class="control-buttons">
+                        <button class="play-pause"><i class="fas fa-play"></i></button>
+                        <input type="range" class="progress-bar" value="0">
+                        <a href="../media/recordings/sanctus.mp3" download class="download-button"><i class="fas fa-download"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="mp3-player">
+                <img src="../media/IMGs/illustrativeImages/svieckyThumb.jpg" alt="Illustrative Image 4" class="mp3-image">
+                <div class="controls">
+                    <div class="recording-name">Siyahamba</div>
+                    <div class="control-buttons">
+                        <button class="play-pause"><i class="fas fa-play"></i></button>
+                        <input type="range" class="progress-bar" value="0">
+                        <a href="../media/recordings/siyahamba.mp3" download class="download-button"><i class="fas fa-download"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 </body>
+<script src="../myStyles/js/recordings-js.js"></script>
 </html>
