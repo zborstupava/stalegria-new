@@ -1,6 +1,10 @@
-body{
+html, body {
     margin: 0;
     padding: 0;
+    height: 100%;
+}
+
+body{
     font-family: 'Roboto', sans-serif;
     background-color: #f0f0f0;
     color: #189ab4;
@@ -57,7 +61,7 @@ body{
 
 .main-content {
     display: flex;
-    height: 100vh;
+    height: 100%;
     margin: 0;
     padding: 0;
 }
@@ -65,6 +69,7 @@ body{
 .page-image {
     position: relative;
     flex: 1;
+    margin: 0;
 }
 
 .page-image img {
@@ -89,7 +94,7 @@ body{
 
 .page-content {
     flex: 1;
-    padding: 1vw;
+    padding: 0;
     text-align: center;
     margin: 0;
 }
@@ -99,7 +104,8 @@ body{
     font-size: 1.5vw;
     font-weight: 600;
     font-family: "Roboto Light", curvy, serif;
-    padding: 1vw;
+    padding: 5vw;
+
 }
 
 a {

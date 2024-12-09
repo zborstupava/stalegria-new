@@ -5,7 +5,12 @@ document.addEventListener("DOMContentLoaded", function() {
     players.forEach(player => {
         const playPauseButton = player.querySelector(".play-pause");
         const progressBar = player.querySelector(".progress-bar");
+        const timeDisplay = player.querySelector(".time-display");
         const audio = new Audio(player.querySelector(".download-button").href);
+
+        audio.addEventListener("loadedmetadata", function() {
+            timeDisplay.textContent = "0:00 / " + formatTime(audio.duration);
+        });
 
         playPauseButton.addEventListener("click", function() {
             if (audio.paused) {
@@ -25,10 +30,17 @@ document.addEventListener("DOMContentLoaded", function() {
 
         audio.addEventListener("timeupdate", function() {
             progressBar.value = (audio.currentTime / audio.duration) * 100;
+            timeDisplay.textContent = formatTime(audio.currentTime) + " / " + formatTime(audio.duration);
         });
 
         progressBar.addEventListener("input", function() {
             audio.currentTime = (progressBar.value / 100) * audio.duration;
         });
     });
+
+    function formatTime(seconds) {
+        const minutes = Math.floor(seconds / 60);
+        const secs = Math.floor(seconds % 60);
+        return minutes + ":" + (secs < 10 ? "0" : "") + secs;
+    }
 });
