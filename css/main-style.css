@@ -34,10 +34,11 @@ body{
     margin-left: auto;
 }
 .nav-a {
+    white-space: nowrap;
     flex: 1;
     text-align: center;
     color: #189ab4;
-    font-size: 1.4vw;
+    font-size: 1.3vw;
     text-decoration: none;
     font-weight: 600;
     padding: 1vw;
@@ -125,10 +126,11 @@ a {
 }
 
 #contact-youtube img{
-    width: 100%;
+    width: 50%;
     height: auto;
     position: relative;
     top: 25%;
+    left: 25%;
     object-fit: cover;
     margin: 0;
     padding: 0;
@@ -140,3 +142,25 @@ a {
     margin: 0;
     padding: 0;
 }
+
+#language-dropdown {
+    display: none;
+}
+
+/*#language-dropdown{*/
+/*    position: fixed;*/
+/*    top: calc(100% - 2vw - 1.5vw);*/
+/*    left: calc(100% - 2vw - 1.5vw);*/
+/*    font-size: 1.7vw;*/
+/*    background-color: rgba(0, 0, 0, 0.15);*/
+/*    border: none;;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    padding: .1vw .4vw;*/
+/*    transition-duration: 0.5s;*/
+/*}*/
+
+/*#language-dropdown:hover{*/
+/*    background-color: rgba(0, 0, 0, 0.25);*/
+/*}*/

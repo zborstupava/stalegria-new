@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Members</title>
+    <title class="translatable" data-key="members.title" >Members</title>
     <link href="../media/IMGs/logo/titleLogo.png" rel="icon" type="images/x-icon"/>
     <link href="../css/main-style.css" rel="stylesheet">
 </head>
@@ -13,13 +13,13 @@
     </a>
     <div class="header-title">Stalegria</div>
     <nav class="header-nav">
-        <a class="nav-a" href="home.html">Home</a>
-        <a class="nav-a" href="about.html">About</a>
-        <a class="nav-a" href="repertoire.html">Repertoire</a>
-        <a class="nav-a active" href="members.html">Members</a>
-        <a class="nav-a" href="recordings.html">Recordings</a>
-        <a class="nav-a" href="gallery.html">Gallery</a>
-        <a class="nav-a" href="contact.html">Contact</a>
+        <a class="nav-a translatable" data-key="nav.home" href="home.html">Home</a>
+        <a class="nav-a translatable" data-key="nav.about" href="about.html">About</a>
+        <a class="nav-a translatable" data-key="nav.repertoire" href="repertoire.html">Repertoire</a>
+        <a class="nav-a translatable active" data-key="nav.members" href="members.html">Members</a>
+        <a class="nav-a translatable" data-key="nav.recordings" href="recordings.html">Recordings</a>
+        <a class="nav-a translatable" data-key="nav.gallery" href="gallery.html">Gallery</a>
+        <a class="nav-a translatable" data-key="nav.contact" href="contact.html">Contact</a>
     </nav>
 </header>
 <div class="gradient-separator"></div>
@@ -29,7 +29,7 @@
     </div>
     <div class="page-content">
         <div style="column-count: 2;">
-            <div class="page-text members-column" style="width: 120%">
+            <div class="page-text members-column translatable" data-key="members.left-column" style="width: 120%">
                 Choirmaster: Júlia Rajňáková<br><br>
                 Orchestra:<br>
                 - Ondrej Baláž - cajón <br>
@@ -48,7 +48,7 @@
                 - Monika Sedláčková<br>
                 - Simona Vaneková<br>
             </div>
-            <div class="page-text members-column">
+            <div class="page-text members-column translatable" data-key="members.right-column">
                 <br><br>
                 Alto:<br>
                 - Zuzka Hruzová<br>
@@ -65,5 +65,9 @@
         </div>
     </div>
 </div>
+
+<button id="language-dropdown">🇸🇰</button>
+
+<script src="../js/translations.js"></script>
 </body>
 </html>

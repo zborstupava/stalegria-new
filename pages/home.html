@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Home</title>
+    <title class="translatable" data-key="home.title">Home</title>
     <link href="../media/IMGs/logo/titleLogo.png" rel="icon" type="images/x-icon"/>
     <link href="../css/main-style.css" rel="stylesheet">
 </head>
@@ -13,13 +13,13 @@
     </a>
     <div class="header-title">Stalegria</div>
     <nav class="header-nav">
-        <a class="nav-a active" href="home.html">Home</a>
-        <a class="nav-a" href="about.html">About</a>
-        <a class="nav-a" href="repertoire.html">Repertoire</a>
-        <a class="nav-a" href="members.html">Members</a>
-        <a class="nav-a" href="recordings.html">Recordings</a>
-        <a class="nav-a" href="gallery.html">Gallery</a>
-        <a class="nav-a" href="contact.html">Contact</a>
+        <a class="nav-a translatable active" data-key="nav.home" href="home.html">Home</a>
+        <a class="nav-a translatable" data-key="nav.about" href="about.html">About</a>
+        <a class="nav-a translatable" data-key="nav.repertoire" href="repertoire.html">Repertoire</a>
+        <a class="nav-a translatable" data-key="nav.members" href="members.html">Members</a>
+        <a class="nav-a translatable" data-key="nav.recordings" href="recordings.html">Recordings</a>
+        <a class="nav-a translatable" data-key="nav.gallery" href="gallery.html">Gallery</a>
+        <a class="nav-a translatable" data-key="nav.contact" href="contact.html">Contact</a>
     </nav>
 </header>
 <div class="gradient-separator"></div>
@@ -28,7 +28,7 @@
         <img alt="Stalegria" src="../media/IMGs/pageImgs/home.png">
     </div>
     <div class="page-content">
-        <p class="page-text">
+        <p class="page-text translatable" data-key="home.page-text">
             Rejoice in the Lord always. I will say it again: Rejoice! Let your gentleness be evident to all. The
             Lord is near. Do not be anxious about anything, but in every situation, by prayer and petition, with
             thanksgiving, present your requests to God. And the peace of God, which transcends all understanding, will
@@ -39,5 +39,9 @@
         </p>
     </div>
 </div>
+
+<button id="language-dropdown">🇸🇰</button>
+
+<script src="../js/translations.js"></script>
 </body>
 </html>
