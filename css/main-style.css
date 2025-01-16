@@ -147,20 +147,20 @@ a {
     display: none;
 }
 
-/*#language-dropdown{*/
-/*    position: fixed;*/
-/*    top: calc(100% - 2vw - 1.5vw);*/
-/*    left: calc(100% - 2vw - 1.5vw);*/
-/*    font-size: 1.7vw;*/
-/*    background-color: rgba(0, 0, 0, 0.15);*/
-/*    border: none;;*/
-/*    display: flex;*/
-/*    align-items: center;*/
-/*    justify-content: center;*/
-/*    padding: .1vw .4vw;*/
-/*    transition-duration: 0.5s;*/
-/*}*/
+#language-dropdown{
+    position: fixed;
+    top: calc(100% - 2vw - 1.5vw);
+    left: calc(100% - 2vw - 1.5vw);
+    font-size: 1.7vw;
+    background-color: rgba(0, 0, 0, 0.15);
+    border: none;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .1vw .4vw;
+    transition-duration: 0.5s;
+}
 
-/*#language-dropdown:hover{*/
-/*    background-color: rgba(0, 0, 0, 0.25);*/
-/*}*/
+#language-dropdown:hover{
+    background-color: rgba(0, 0, 0, 0.25);
+}
