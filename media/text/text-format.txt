@@ -1,0 +1,6 @@
+use <start> and <end> to indicate the start and end of a text snippet.
+use <c "text" c> to indicate the text content
+use <i "name.end" i> to indicate an image. (put the image in media/images/name.end)
+use <h "Header" h> to indicate a header.
+use <d "date" d> to indicate a date (e.g.: <date "1.1.2025">)
+
