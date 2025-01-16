@@ -143,10 +143,6 @@ a {
     padding: 0;
 }
 
-#language-dropdown {
-    display: none;
-}
-
 #language-dropdown{
     position: fixed;
     top: calc(100% - 2vw - 1.5vw);
@@ -163,4 +159,8 @@ a {
 
 #language-dropdown:hover{
     background-color: rgba(0, 0, 0, 0.25);
+}
+
+#language-dropdown {
+    display: none;
 }
