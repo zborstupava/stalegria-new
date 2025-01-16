@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     const players = document.querySelectorAll(".mp3-player");
     let currentAudio = null;
+    let currentPlayPauseButton = null;
 
     players.forEach(player => {
         const playPauseButton = player.querySelector(".play-pause");
@@ -8,23 +9,31 @@ document.addEventListener("DOMContentLoaded", function() {
         const timeDisplay = player.querySelector(".time-display");
         const audio = new Audio(player.querySelector(".download-button").href);
 
+        // Reset the time display when the audio is loaded
+        progressBar.value = 0;
+
         audio.addEventListener("loadedmetadata", function() {
             timeDisplay.textContent = "0:00 / " + formatTime(audio.duration);
         });
 
         playPauseButton.addEventListener("click", function() {
+            if (currentAudio && currentAudio !== audio) {
+                currentAudio.pause();
+                currentPlayPauseButton.querySelector("i").classList.replace("fa-pause", "fa-play");
+                currentAudio = player.audio;
+            }
             if (audio.paused) {
-                if (currentAudio && currentAudio !== audio) {
-                    currentAudio.pause();
-                    currentAudio.closest(".mp3-player").querySelector(".play-pause i").classList.replace("fa-pause", "fa-play");
-                }
                 audio.play();
                 playPauseButton.querySelector("i").classList.replace("fa-play", "fa-pause");
                 currentAudio = audio;
+                currentPlayPauseButton = playPauseButton;
             } else {
                 audio.pause();
                 playPauseButton.querySelector("i").classList.replace("fa-pause", "fa-play");
-                currentAudio = null;
+                if (currentAudio === audio) {
+                    currentAudio = null;
+                    currentPlayPauseButton = null;
+                }
             }
         });
 

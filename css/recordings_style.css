@@ -1,5 +1,6 @@
 #mp3-players-container {
     margin: 0;
+    flex: 1;
 }
 
 .mp3-player {
@@ -72,4 +73,23 @@
     background-color: #189ab4;
     color: white;
     cursor: pointer;
+}
+
+#youtube-teaser {
+    flex: 1;
+}
+
+#youtube-teaser-title {
+    position: absolute;
+    top: 11vw;
+    font-size: 1vw;
+    padding: 2vw 1.5vw 1.5vw;
+    color: white;
+    z-index: 1;
+}
+
+#youtube-teaser img:hover {
+    transform: scale(1.02);
+    transition: transform 0.5s ease-in-out;
+    z-index: 0;
 }
