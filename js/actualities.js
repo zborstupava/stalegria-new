@@ -38,7 +38,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
                 const articleContent = document.createElement("div");
                 articleContent.classList.add("article-content");
-                articleContent.innerHTML = article.slice(article.indexOf('<c "') + 4, article.indexOf('" c>'));
+                let content = article.slice(article.indexOf('<c "') + 4, article.indexOf('" c>'));
+
+                // Replace <l "name" "url" l> with <a href="url">name</a>
+                content = content.replace(/<l "([^"]+)" "([^"]+)" l>/g, '<a href="$2">$1</a>');
+                articleContent.innerHTML = content;
 
                 articleHeader.appendChild(articleTitle);
                 articleHeader.appendChild(articleDate);
