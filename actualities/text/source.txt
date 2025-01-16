@@ -1,0 +1,8 @@
+<start>
+<h "Pracuje sa na tom" h>
+<d "16.1.2025" d>
+<i "work-in-progress.png" i>
+<c "
+Táto podstránka je v procese vývoja. Ďakujeme za pochopenie.
+" c>
+<end>

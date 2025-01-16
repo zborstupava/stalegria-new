@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const textFile = "../media/text/actualities.txt";
+    const textFile = "../actualities/text/source.txt";
     const mainContent = document.getElementsByClassName("main-content");
     const articles = [];
 
@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 if (article.includes('<i "')) {
                     const articleImage = document.createElement("img");
                     articleImage.classList.add("article-image");
-                    articleImage.src = "../media/IMGs/illustrativeImages/actualities/" + article.slice(article.indexOf('<i "') + 4, article.indexOf('" i>'));
+                    articleImage.src = "../actualities/images/" + article.slice(article.indexOf('<i "') + 4, article.indexOf('" i>'));
                     articleDiv.appendChild(articleImage);
                 }
 
