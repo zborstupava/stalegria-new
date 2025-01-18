@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const textFile = "../actualities/text/source.txt";
+    const textFile = "/stalegria-new/actualities/text/source.txt";
     const mainContent = document.getElementsByClassName("main-content");
     const articles = [];
 
@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 if (article.includes('<i "')) {
                     const articleImage = document.createElement("img");
                     articleImage.classList.add("article-image");
-                    articleImage.src = "../actualities/images/" + article.slice(article.indexOf('<i "') + 4, article.indexOf('" i>'));
+                    articleImage.src = "/stalegria-new/actualities/images/" + article.slice(article.indexOf('<i "') + 4, article.indexOf('" i>'));
                     articleDiv.appendChild(articleImage);
                 }
 

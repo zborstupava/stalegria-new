@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Load thumbnails
     images.forEach((image, index) => {
         const imgElement = document.createElement('img');
-        imgElement.src = `../media/IMGs/gallery/thumbnails/${image}Thumb.jpg`;
+        imgElement.src = `/stalegria-new/media/IMGs/gallery/thumbnails/${image}Thumb.jpg`;
         imgElement.alt = image;
         imgElement.addEventListener('click', () => {
             lightbox.style.display = 'flex';
@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         lightboxImg.style.opacity = 0;
         setTimeout(() => {
-            lightboxImg.src = `../media/IMGs/gallery/${images[index]}.jpg`;
+            lightboxImg.src = `/stalegria-new/media/IMGs/gallery/${images[index]}.jpg`;
             lightboxImg.style.opacity = 1;
         }, 500);
     }
