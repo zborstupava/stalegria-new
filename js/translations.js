@@ -32,7 +32,7 @@ function getSavedLanguageIndex() {
 }
 
 async function loadTranslations(language) {
-    const translationsFile = `../translations/${language}.json`;
+    const translationsFile = `/stalegria-new/translations/${language}.json`;
 
     try {
         const response = await fetch(translationsFile);
