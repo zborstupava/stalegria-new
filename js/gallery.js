@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
         imgElement.alt = image;
         imgElement.addEventListener('click', () => {
             lightbox.style.display = 'flex';
-            lightboxImg.src = `../media/IMGs/gallery/${image}.jpg`;
+            lightboxImg.src = `/stalegria-new/media/IMGs/gallery/${image}.jpg`;
             currentIndex = index;
         });
         imgElement.addEventListener('dragstart', (e) => {
