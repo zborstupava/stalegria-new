@@ -41,7 +41,7 @@ function fillHeader() {
     const header = document.querySelector('.header');
     header.innerHTML = `
         <a class="header-logo" href="home.html">
-            <img alt="logo" src="../media/IMGs/logo/headerLogo.png"/>
+            <img alt="logo" src="/stalegria-new/media/IMGs/logo/headerLogo.png"/>
         </a>
         <div class="header-title">Stalegria</div>
         <nav class="header-nav"></nav>
