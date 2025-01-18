@@ -4,7 +4,7 @@ const defaultLangIndex = 1;
 const button = document.getElementById('language-dropdown');
 let langIndex = getSavedLanguageIndex();
 
-window.onload = function () {
+async function translate () {
     if (langIndex === null) {
         saveLanguageIndex(defaultLangIndex);
         langIndex = defaultLangIndex;
