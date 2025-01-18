@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
     fillHeader();
 
     const navItems = [
-        {key: 'nav.home', href: 'home.html', text: 'Home'},
+        {key: 'nav.home', href: 'index.html', text: 'Home'},
         {key: 'nav.about', href: 'about.html', text: 'About'},
         {key: 'nav.repertoire', href: 'repertoire.html', text: 'Repertoire'},
         {key: 'nav.members', href: 'members.html', text: 'Members'},
