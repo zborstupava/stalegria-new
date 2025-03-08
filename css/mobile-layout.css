@@ -1,0 +1,182 @@
+.mobile-nav-button {
+    display: none;
+}
+
+.header-gap {
+    display: none;
+}
+
+.mobile-nav-panel {
+    display: none;
+}
+
+.close-mobile-nav-panel {
+    display: block;
+    width: 100%;
+    text-align: right;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #189ab4;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 2vw 2vw 0;
+}
+
+@media screen and (max-width: 600px) {
+    .main-content {
+        display: block;
+    }
+
+    p.page-text {
+        font-size: 3.5vw;
+    }
+
+    .header {
+        display: flex;
+    }
+
+    .header-gap {
+        display: block;
+        flex: 1;
+    }
+
+    .header-logo {
+        flex: 3;
+    }
+
+    .header-logo img {
+        height: 15vw;
+        width: auto;
+    }
+
+    .header-title {
+        font-size: 7vw;
+        flex: 6;
+    }
+
+    .header-nav {
+        display: none;
+    }
+
+    .mobile-nav-button {
+        display: block;
+        color: #189ab4;
+        background-color: #f0f0f0;
+        border: none;
+        font-size: 10vw;
+        padding-bottom: 2vh;
+        padding-right: 2vw;
+        cursor: pointer;
+        flex: 1;
+
+    }
+
+    .mobile-nav-panel {
+        display: block;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 45%;
+        height: 100%;
+        background-color: #f0f0f0;
+        opacity: 0.95;
+        box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+        transition: right 0.3s ease;
+        z-index: 1000;
+        padding: 1em;
+    }
+
+    .mobile-nav-panel.open {
+        right: 0;
+    }
+
+    .mobile-nav-panel .nav-a {
+        display: block;
+        padding: 2vh 0;
+        font-size: 1.2em;
+        color: #189ab4;
+        text-decoration: none;
+    }
+
+    .mobile-nav-panel .nav-a:hover {
+        color: #05445e;
+    }
+
+    .gradient-separator {
+        height: 1.5vh;
+    }
+
+    a.page-text {
+        font-size: 4vw;
+        padding: 0;
+    }
+
+    /* Members page */
+    #members-container {
+        column-count: 1;
+        width: 100%;
+    }
+
+    .members-column {
+        display: block;
+        width: 100% !important;
+        text-align: center;
+        margin: 2vw 0;
+        padding: 0;
+        font-size: 3.5vw;
+    }
+
+    .mem-category {
+        font-size: 4.5vw;
+        margin-left: 0;
+        margin-bottom: 1.5vw;
+    }
+
+    /* Recordings page */
+    #youtube-teaser {
+        display: none;
+    }
+
+    .mp3-player {
+        width: auto;
+        margin: 4vw;
+        padding: 0 3vw 0 0;
+        border-radius: 5vw;
+        border: 0.5vw solid;
+    }
+
+    .mp3-image {
+        width: 40%;
+        height: auto;
+        margin: 3vw;
+    }
+
+    .controls {
+        font-size: 4vw;
+    }
+
+    .recording-name {
+        font-size: 5vw;
+    }
+
+    .control-buttons button {
+        font-size: 4.5vw;
+        height: 7vw;
+        width: 8vw;
+    }
+
+    .control-buttons .progress-bar {
+        height: 2vw;
+    }
+
+    .control-buttons .time-display {
+        font-size: 3vw;
+    }
+
+    .control-buttons .download-button {
+        font-size: 4vw;
+        height: 5vw;
+        width: 5vw;
+    }
+}
