@@ -1,5 +1,3 @@
-// File: js/navigation.js
-
 document.addEventListener('DOMContentLoaded', function () {
     fillHeader();
 
@@ -33,6 +31,8 @@ document.addEventListener('DOMContentLoaded', function () {
     const activeLink = navContainer.querySelector(`a[href="${currentPath}"]`);
     if (activeLink) {
         activeLink.classList.add('active');
+    } else {
+        navContainer.querySelector('a[href="index.html"]').classList.add('active');
     }
 
     translate().then(() => {
