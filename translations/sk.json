@@ -15,15 +15,14 @@
   "nav.gallery" : "Galéria",
   "nav.actualities" : "Aktuality",
   "nav.contact" : "Kontakt",
-  "home.page-text" :"Ustavične sa radujte v Pánovi!\nOpakujem: Radujte sa! Vaša miernosť\nnech je známa všetkým ľuďom. Pán je\nblízko. O nič nebuďte ustarostení. Ale\nvo všetkom modlitbou, prosbou a so\nvzdávaním vďaky prednášajte svoje\nžiadosti Bohu.\n\nFilipanom 4:4-7 ",
+  "home.page-text" :"Ustavične sa radujte v Pánovi!<br>Opakujem: Radujte sa! Vaša miernosť<br>nech je známa všetkým ľuďom. Pán je<br>blízko. O nič nebuďte ustarostení. Ale<br>vo všetkom modlitbou, prosbou a so<br>vzdávaním vďaky prednášajte svoje<br>žiadosti Bohu.<br><br>Filipanom 4:4-7 ",
   "about.page-text" : "Žijeme v Stupave, ale mnohí z nás sú z rôznych kútov Slovenska. Vnímame, ze každý jeden z nás dostal do zboru osobitne pozvanie od Pána. Každý tam má svoje špeciálne miesto. Prežívame vďaku Bohu za možnosť slúžiť na svätých omšiach našou hudbou a spevom. Dôležitou súčasťou zboru sú aj naše rodiny, ktoré nás v našej službe podporujú. Spievame a hráme Bohu, bratom a sestrám s radosťou v srdci. ",
   "repertoire.page-text" : "Keďže väčšina členov zboru je akurát „v najlepších rokoch“, veľmi radi spievame gospelové piesne „nášho mládí“, teda z 80 – 90 rokov. No rovnako radi spievame aj iné štýly, či už Taizé, diela od M. Frisinu, modernejší gospel, staršie chrámové zborové diela, a skúsili sme si už aj Akatist z východného obradu. Inými slovami, radi spievame a hráme všetko, čo je na Božiu slávu.",
   "repertoire.link-text" : "Naše nahrávky",
-  "members.left-column" : "Zbormajsterka: Júlia Rajňáková\n\nOrchester:\n- Ondrej Baláž – cajón\n- Lucia Drábová – klávesy, gitara, atď.\n- Majo Hacker – gitara, technická podpora\n- Zuzka Hruzová – flauta\n- Lukáš Píš – organ, klavír\n- Martin Rajňák – saxofón, flauta, fujara\n- Andrej Strečanský – trúbka, ozvučenie\n\nSoprán:\n- Katka a Žofka Hackerové\n- Barbora Peterková\n- Júlia Píšová\n- Júlia Rajňáková\n- Monika Sedláčková\n- Simona Vaneková ",
-  "members.right-column" : "\n\nAlt:\n- Zuzka Hruzová\n- Monika Motýľová\n- Katka Růžičková\n\nTenor:\n- Lukáš Píš\n- Andrej Strečanský\n- Andrej Tomek\n\nBas:\n- Martin Rajňák ",
+  "members.left-column": "<div class=\"mem-category\">Zbormajsterka:</div>- Júlia Rajňáková<br><br><div class=\"mem-category\">Orchester:</div>- Ondrej Baláž – cajón<br>- Lucia Drábová – klávesy, gitara, atď.<br>- Majo Hacker – gitara, technická podpora<br>- Zuzka Hruzová – flauta<br>- Lukáš Píš – organ, klavír<br>- Martin Rajňák – saxofón, flauta, fujara<br>- Andrej Strečanský – trúbka, ozvučenie<br><br><div class=\"mem-category\">Soprán:</div>- Katka a Žofka Hackerové<br>- Barbora Peterková<br>- Júlia Píšová<br>- Júlia Rajňáková<br>- Monika Sedláčková<br>- Simona Vaneková",
+  "members.right-column": "<div class=\"mem-category\">Alt:</div>- Zuzka Hruzová<br>- Monika Motýľová<br>- Katka Růžičková<br><br><div class=\"mem-category\">Tenor:</div>- Lukáš Píš<br>- Andrej Strečanský<br>- Andrej Tomek<br><br><div class=\"mem-category\">Bas:</div>- Martin Rajňák",
   "recordings.youtube-teaser" : "Viac našich nahrávok nájdete na našom youtube:",
   "contact.h1" : "Kontakt",
   "contact.phone" : "Telefónne číslo zbormajsterky:",
   "contact.mail" : "Mail zbormajsterky:"
-
 }
