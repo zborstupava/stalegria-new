@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
     fillHeader();
-
     const navItems = [
         {key: 'nav.home', href: 'index.html', text: 'Home'},
         {key: 'nav.about', href: 'about.html', text: 'About'},

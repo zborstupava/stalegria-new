@@ -179,4 +179,22 @@
         height: 5vw;
         width: 5vw;
     }
+
+    /* Actualities page */
+    .article-image {
+        width: 20%;
+        height: auto;
+    }
+
+    .article-title {
+        font-size: 4vw;
+    }
+
+    .article-content {
+        font-size: 2vw;
+    }
+
+    .article-date {
+        font-size: 2.5vw;
+    }
 }
