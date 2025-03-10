@@ -1,14 +1,14 @@
 document.addEventListener('DOMContentLoaded', function () {
     fillHeader();
     const navItems = [
-        {key: 'nav.home', href: 'index.html', text: 'Home'},
-        {key: 'nav.about', href: 'about.html', text: 'About'},
-        {key: 'nav.repertoire', href: 'repertoire.html', text: 'Repertoire'},
-        {key: 'nav.members', href: 'members.html', text: 'Members'},
-        {key: 'nav.recordings', href: 'recordings.html', text: 'Recordings'},
-        {key: 'nav.gallery', href: 'gallery.html', text: 'Gallery'},
-        {key: 'nav.actualities', href: 'actualities.html', text: 'Actualities'},
-        {key: 'nav.contact', href: 'contact.html', text: 'Contact'}
+        {key: 'nav.home', href: '/stalegria-new/', text: 'Home'},
+        {key: 'nav.about', href: 'onas.html', text: 'About'},
+        {key: 'nav.repertoire', href: 'repertoar.html', text: 'Repertoire'},
+        {key: 'nav.members', href: 'clenovia.html', text: 'Members'},
+        {key: 'nav.recordings', href: 'nahravky.html', text: 'Recordings'},
+        {key: 'nav.gallery', href: 'galeria.html', text: 'Gallery'},
+        {key: 'nav.actualities', href: 'aktuality.html', text: 'Actualities'},
+        {key: 'nav.contact', href: 'kontakt.html', text: 'Contact'}
     ];
 
     const navContainer = document.querySelector('.header-nav');
@@ -30,8 +30,9 @@ document.addEventListener('DOMContentLoaded', function () {
     const activeLink = navContainer.querySelector(`a[href="${currentPath}"]`);
     if (activeLink) {
         activeLink.classList.add('active');
-    } else {
-        navContainer.querySelector('a[href="index.html"]').classList.add('active');
+    } else
+    {
+        navContainer.querySelector('a[href="/stalegria-new/"]').classList.add('active');
     }
 
     translate().then(() => {
@@ -54,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function () {
 function fillHeader() {
     const header = document.querySelector('.header');
     header.innerHTML = `
-        <a class="header-logo" href="index.html">
+        <a class="header-logo" href="/stalegria-new/">
             <img alt="logo" src="/stalegria-new/media/IMGs/logo/headerLogo.png"/>
         </a>
         <div class="header-title">Stalegria</div>
