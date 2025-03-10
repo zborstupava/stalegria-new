@@ -4,11 +4,12 @@
     gap: 2vw;
     padding: 2vw;
     justify-content: center; /* Center images */
+    height: 35vw;
 }
 
 .gallery-container img {
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 13vw;
     object-fit: cover;
     cursor: pointer;
     transition: transform 0.2s;
