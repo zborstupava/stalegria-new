@@ -3,3 +3,10 @@
 /workspace.xml
 # Editor-based HTTP Client requests
 /httpRequests/
+/libraries/js.xml
+/jsLibraryMappings.xml
+/modules.xml
+/inspectionProfiles/Project_Default.xml
+/stalegria-new.iml
+/vcs.xml
+
