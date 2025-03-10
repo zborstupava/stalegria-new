@@ -159,6 +159,24 @@ a {
     padding: 0;
 }
 
+#contact-title {
+    font-size: 3vw;
+    font-weight: 800;
+}
+
+.contact-h {
+    font-size: 2vw;
+    font-weight: 500;
+    color: #189ab4;
+}
+
+.contact-link {
+    font-size: 1.5vw;
+    font-weight: 500;
+    color: #0a53be;
+    text-decoration: none;
+}
+
 #language-dropdown{
     position: fixed;
     top: calc(100% - 2vw - 1.5vw);
