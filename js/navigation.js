@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function () {
         activeLink.classList.add('active');
     } else
     {
-        navContainer.querySelector('a[href="/index.html"]').classList.add('active');
+        navContainer.querySelector('a[href="index.html"]').classList.add('active');
     }
 
     translate().then(() => {
